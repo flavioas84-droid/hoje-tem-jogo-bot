@@ -10,7 +10,10 @@ from zoneinfo import ZoneInfo
 
 CHAT = "-1003873202735"
 TZ = ZoneInfo("America/Sao_Paulo")
-PESO_LIGA = {"Brasileirão Série A": 6, "Premier League": 5, "La Liga": 4, "Serie A": 3,
+PESO_LIGA = {"Libertadores": 8, "Champions League": 8, "Eliminatórias": 8, "Copa do Brasil": 7,
+             "Sul-Americana": 5, "Europa League": 4, "Paulistão": 4, "Carioca": 4, "Gauchão": 3, "Mineiro": 3,
+             "Conference League": 2, "Argentino": 2, "Eredivisie": 1, "MLS": 1,
+             "Brasileirão Série A": 6, "Premier League": 5, "La Liga": 4, "Serie A": 3,
              "Bundesliga": 3, "Ligue 1": 2, "Liga Portugal": 2, "Brasileirão Série B": 2,
              "Saudi Pro League": 1}
 GRANDES = ["flamengo", "palmeiras", "corinthians", "são paulo", "sao paulo", "santos", "vasco",
@@ -19,7 +22,7 @@ GRANDES = ["flamengo", "palmeiras", "corinthians", "são paulo", "sao paulo", "s
            "real madrid", "barcelona", "atlético madrid", "atletico madrid", "manchester city",
            "manchester united", "liverpool", "arsenal", "chelsea", "tottenham", "bayern",
            "dortmund", "paris saint-germain", "psg", "juventus", "internazionale", "inter milan",
-           "ac milan", "napoli", "roma", "benfica", "porto", "sporting", "al-hilal", "al-nassr"]
+           "ac milan", "napoli", "roma", "brasil", "argentina", "boca juniors", "river plate", "benfica", "porto", "sporting", "al-hilal", "al-nassr"]
 dry = "--dry" in sys.argv
 agora = dt.datetime.now(TZ)
 hoje = dt.date.fromisoformat(os.environ["HOJE"]) if os.environ.get("HOJE") else agora.date()
