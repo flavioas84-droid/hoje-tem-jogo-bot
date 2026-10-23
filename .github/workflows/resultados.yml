@@ -1,7 +1,7 @@
 name: Resultados Hoje Tem Jogo
 on:
   schedule:
-    - cron: "*/15 14-23 * * *"   # 11h00 a 20h45 (Brasília)
+    - cron: "*/15 12-23 * * *"   # 9h00 a 20h45 (Brasília)
     - cron: "*/15 0-2 * * *"     # 21h00 a 23h45 (Brasília)
   workflow_dispatch: {}
 permissions:
