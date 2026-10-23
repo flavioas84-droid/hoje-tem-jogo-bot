@@ -15,6 +15,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Instalar Pillow
+        continue-on-error: true
+        run: pip install --quiet pillow
       - name: Enquete do jogo do dia
         continue-on-error: true
         env:
