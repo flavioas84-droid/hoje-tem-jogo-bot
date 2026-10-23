@@ -35,7 +35,7 @@ def eventos(cod):
             cache[cod] += get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{cod}/scoreboard?dates={d:%Y%m%d}").get("events", [])
     return cache[cod]
 
-blocos, chaves = [], []
+blocos, chaves, jogos = [], [], []
 for o in sorted(agenda, key=lambda o: o["hora"]):
     cod = LIGAS.get(o["liga"])
     chave = f"{hoje}|{tid(o['lc'])}|{tid(o['lf'])}"
@@ -63,21 +63,57 @@ for o in sorted(agenda, key=lambda o: o["hora"]):
             form = f" ({r['formation']})" if r.get("formation") else ""
             linhas.append(f"<b>{e(nome)}</b>{e(form)}: " + e(", ".join(tit)))
         if ok:
-            blocos.append("\n".join(linhas)); chaves.append(chave)
+            blocos.append("\n".join(linhas)); chaves.append(chave); jogos.append((o, s))
         break
 
 if not blocos:
     print("nenhuma escalação nova"); sys.exit(0)
 texto = "📋 ESCALAÇÕES\n\n" + "\n\n".join(blocos)
-if dry:
-    print(texto); sys.exit(0)
 token = os.environ.get("TELEGRAM_TOKEN") or "__SAVED_KEY__"
-r = subprocess.run(["curl", "-s", f"https://api.telegram.org/bot{token}/sendMessage",
-                    "-d", f"chat_id={CHAT}", "-d", "parse_mode=HTML", "-d", "disable_web_page_preview=true",
-                    "--data-urlencode", f"text={texto}"], capture_output=True, text=True)
-resp = json.loads(r.stdout or "{}")
-if not resp.get("ok"):
-    sys.exit(f"ERRO Telegram: {resp.get('description')}")
-posts.append({"message_id": resp["result"]["message_id"], "data": str(hoje), "tipo": "escalacao", "jogos": chaves})
+
+# 1º: tenta mandar como arte (uma imagem por jogo; álbum se forem vários)
+ids = []
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from arte_escalacao import arte
+    fotos = []
+    for n, (o, sm) in enumerate(jogos):
+        arq = f"/tmp/escalacao-{n}.png"
+        arte(o, sm, arq)
+        fotos.append((arq, f"📋 Escalações: {o['casa']} x {o['fora']} · {o['liga']} · {o['hora'].replace(':', 'h')}"))
+    if dry:
+        print("\n".join(a for a, _ in fotos)); sys.exit(0)
+    for k in range(0, len(fotos), 10):
+        grupo = fotos[k:k + 10]
+        if len(grupo) == 1:
+            cmd = ["curl", "-s", f"https://api.telegram.org/bot{token}/sendPhoto", "-F", f"chat_id={CHAT}",
+                   "-F", f"photo=@{grupo[0][0]}", "-F", f"caption={grupo[0][1]}"]
+        else:
+            media = [{"type": "photo", "media": f"attach://f{j}", "caption": c} for j, (_, c) in enumerate(grupo)]
+            cmd = ["curl", "-s", f"https://api.telegram.org/bot{token}/sendMediaGroup", "-F", f"chat_id={CHAT}",
+                   "-F", "media=" + json.dumps(media, ensure_ascii=False)]
+            cmd += sum([["-F", f"f{j}=@{a}"] for j, (a, _) in enumerate(grupo)], [])
+        resp = json.loads(subprocess.run(cmd, capture_output=True, text=True).stdout or "{}")
+        if not resp.get("ok"):
+            raise RuntimeError(resp.get("description"))
+        res = resp["result"]
+        ids += [m["message_id"] for m in (res if isinstance(res, list) else [res])]
+except SystemExit:
+    raise
+except Exception as err:
+    print("arte falhou, mandando em texto:", err)
+
+if not ids:
+    if dry:
+        print(texto); sys.exit(0)
+    r = subprocess.run(["curl", "-s", f"https://api.telegram.org/bot{token}/sendMessage",
+                        "-d", f"chat_id={CHAT}", "-d", "parse_mode=HTML", "-d", "disable_web_page_preview=true",
+                        "--data-urlencode", f"text={texto}"], capture_output=True, text=True)
+    resp = json.loads(r.stdout or "{}")
+    if not resp.get("ok"):
+        sys.exit(f"ERRO Telegram: {resp.get('description')}")
+    ids = [resp["result"]["message_id"]]
+for mid in ids:
+    posts.append({"message_id": mid, "data": str(hoje), "tipo": "escalacao", "jogos": chaves})
 json.dump(posts, open("posts.json", "w"), ensure_ascii=False)
-print("publicado", resp["result"]["message_id"], len(chaves), "jogos")
+print("publicado", ids, len(chaves), "jogos")
