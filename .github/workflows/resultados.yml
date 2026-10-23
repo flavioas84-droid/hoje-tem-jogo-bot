@@ -15,6 +15,11 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Enquete do jogo do dia
+        continue-on-error: true
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: python3 agenda/enquete.py
       - name: Postar escalações novas
         continue-on-error: true
         env:
