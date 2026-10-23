@@ -72,50 +72,54 @@ def cor(h, padrao):
 
 
 def arte(o, s, dst):
-    W, H = 1080, 1350
+    W, H = 1600, 1000
     im = Image.new("RGB", (W, H), VERDE)
     d = ImageDraw.Draw(im)
     ros = {r["homeAway"]: r for r in s["rosters"]}
 
-    # cabeçalho
-    if os.path.exists(LOGO):
-        lg = Image.open(LOGO).convert("RGBA"); lg.thumbnail((110, 110)); im.paste(lg, (30, 22), lg)
-    d.text((160, 30), "ESCALAÇÕES", font=f(50, True), fill=OURO)
-    sub = f'{o["liga"]} · {o["hora"].replace(":", "h")}'
-    d.text((162, 92), sub, font=f(28), fill=(200, 230, 210))
-
-    # placa dos times
-    y0 = 150
-    d.rounded_rectangle((20, y0, W - 20, y0 + 90), 18, fill=VERDE2)
-    for lado, x, url in (("home", 40, o["lc"]), ("away", W - 110, o["lf"])):
-        c = img_url(url, 70)
-        if c: im.paste(c, (x + (70 - c.width) // 2, y0 + 10 + (70 - c.height) // 2), c)
-    fm = lambda l: (ros[l].get("formation") or "")
-    t = f'{o["casa"]}  x  {o["fora"]}'
-    sz = 34
-    while d.textlength(t, font=f(sz, True)) > 800 and sz > 18: sz -= 1
-    d.text((W / 2 - d.textlength(t, font=f(sz, True)) / 2, y0 + 12), t, font=f(sz, True), fill="white")
-    ff = f'{fm("home")}  ·  {fm("away")}'
-    d.text((W / 2 - d.textlength(ff, font=f(24)) / 2, y0 + 56), ff, font=f(24), fill=(255, 235, 150))
-
-    # campo
-    cx0, cy0, cx1, cy1 = 40, 260, W - 40, H - 80
-    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, fill=(30, 120, 65))
-    for k in range(10):
-        if k % 2:
-            yy = cy0 + (cy1 - cy0) * k / 10
-            d.rectangle((cx0, yy, cx1, yy + (cy1 - cy0) / 10), fill=(34, 128, 70))
-    L = (215, 240, 220); mid = (cy0 + cy1) / 2; cxm = (cx0 + cx1) / 2
-    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, outline=L, width=3)
-    d.line((cx0, mid, cx1, mid), fill=L, width=3)
-    d.ellipse((cxm - 90, mid - 90, cxm + 90, mid + 90), outline=L, width=3)
-    for top in (True, False):
-        a, b = (cy0, cy0 + 150) if top else (cy1 - 150, cy1)
-        d.rectangle((cxm - 220, a, cxm + 220, b), outline=L, width=3)
-        a, b = (cy0, cy0 + 55) if top else (cy1 - 55, cy1)
-        d.rectangle((cxm - 100, a, cxm + 100, b), outline=L, width=3)
-
     def lum(c): return 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]
+
+    # cabeçalho: logo + título; mandante à esquerda, visitante à direita
+    if os.path.exists(LOGO):
+        lg = Image.open(LOGO).convert("RGBA"); lg.thumbnail((96, 96)); im.paste(lg, (30, 18), lg)
+    d.text((140, 22), "ESCALAÇÕES", font=f(46, True), fill=OURO)
+    sub = f'{o["liga"]} · {o["hora"].replace(":", "h")}'
+    d.text((142, 78), sub, font=f(26), fill=(200, 230, 210))
+
+    y0 = 130
+    d.rounded_rectangle((20, y0, W - 20, y0 + 96), 18, fill=VERDE2)
+    meio = W / 2
+    d.text((meio - d.textlength("x", font=f(34, True)) / 2, y0 + 22), "x", font=f(34, True), fill=(200, 230, 210))
+    for lado, nm, url in (("home", o["casa"], o["lc"]), ("away", o["fora"], o["lf"])):
+        fm = ros[lado].get("formation") or ""
+        sz = 34
+        while d.textlength(nm, font=f(sz, True)) > 560 and sz > 18: sz -= 1
+        tw = d.textlength(nm, font=f(sz, True)); fw = d.textlength(fm, font=f(22), )
+        c = img_url(url, 72)
+        if lado == "home":
+            if c: im.paste(c, (40 + (72 - c.width) // 2, y0 + 12 + (72 - c.height) // 2), c)
+            d.text((130, y0 + 12), nm, font=f(sz, True), fill="white")
+            d.text((130, y0 + 58), fm, font=f(22), fill=(255, 235, 150))
+        else:
+            if c: im.paste(c, (W - 112 + (72 - c.width) // 2, y0 + 12 + (72 - c.height) // 2), c)
+            d.text((W - 130 - tw, y0 + 12), nm, font=f(sz, True), fill="white")
+            d.text((W - 130 - fw, y0 + 58), fm, font=f(22), fill=(255, 235, 150))
+
+    # campo deitado: mandante ataca da esquerda pra direita
+    cx0, cy0, cx1, cy1 = 40, 250, W - 40, H - 70
+    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, fill=(30, 120, 65))
+    for k in range(1, 12, 2):
+        xx = cx0 + (cx1 - cx0) * k / 12
+        d.rectangle((xx, cy0, xx + (cx1 - cx0) / 12, cy1), fill=(34, 128, 70))
+    L = (215, 240, 220); mid = (cx0 + cx1) / 2; cym = (cy0 + cy1) / 2
+    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, outline=L, width=3)
+    d.line((mid, cy0, mid, cy1), fill=L, width=3)
+    d.ellipse((mid - 85, cym - 85, mid + 85, cym + 85), outline=L, width=3)
+    for esq in (True, False):
+        a, b = (cx0, cx0 + 140) if esq else (cx1 - 140, cx1)
+        d.rectangle((a, cym - 200, b, cym + 200), outline=L, width=3)
+        a, b = (cx0, cx0 + 50) if esq else (cx1 - 50, cx1)
+        d.rectangle((a, cym - 90, b, cym + 90), outline=L, width=3)
 
     for lado in ("home", "away"):
         r = ros[lado]
@@ -125,28 +129,28 @@ def arte(o, s, dst):
         tx = "black" if lum(bg) > 140 else "white"
         ls = linhas(r)
         n = len(ls)
+        meia = mid - cx0
         for i, linha in enumerate(ls):
-            # mandante embaixo atacando pra cima; visitante em cima atacando pra baixo
-            frac = 0.06 + 0.86 * i / max(1, n - 1)
-            meia = (mid - cy0)
-            y = cy1 - 45 - frac * (meia - 70) if lado == "home" else cy0 + 45 + frac * (meia - 70)
+            frac = 0.05 + 0.88 * i / max(1, n - 1)
+            x = cx0 + 55 + frac * (meia - 120) if lado == "home" else cx1 - 55 - frac * (meia - 120)
             k = len(linha)
             for j, a in enumerate(linha):
-                jj = j if lado == "home" else k - 1 - j  # visitante de frente: espelha
-                x = cx0 + (cx1 - cx0) * (jj + 1) / (k + 1)
-                R = 30
+                # mandante olhando pra direita: esquerda dele = em cima; visitante espelhado
+                jj = j if lado == "home" else k - 1 - j
+                y = cy0 + (cy1 - cy0) * (jj + 1) / (k + 1) - 12
+                R = 28
                 d.ellipse((x - R, y - R, x + R, y + R), fill=bg, outline="white", width=3)
                 num = str(a.get("jersey", ""))
-                d.text((x - d.textlength(num, font=f(24, True)) / 2, y - 15), num, font=f(24, True), fill=tx)
-                nm = nome(a); sz = 22
-                while d.textlength(nm, font=f(sz, True)) > (cx1 - cx0) / (k + 1) - 6 and sz > 13: sz -= 1
+                d.text((x - d.textlength(num, font=f(22, True)) / 2, y - 14), num, font=f(22, True), fill=tx)
+                nm = nome(a); sz = 20
+                while d.textlength(nm, font=f(sz, True)) > 150 and sz > 13: sz -= 1
                 tw = d.textlength(nm, font=f(sz, True))
-                d.rounded_rectangle((x - tw / 2 - 6, y + R + 2, x + tw / 2 + 6, y + R + sz + 10), 6, fill=(0, 0, 0, 0) if False else (12, 60, 34))
+                d.rounded_rectangle((x - tw / 2 - 6, y + R + 2, x + tw / 2 + 6, y + R + sz + 10), 6, fill=(12, 60, 34))
                 d.text((x - tw / 2, y + R + 4), nm, font=f(sz, True), fill="white")
 
-    d.text((40, H - 55), "Horários de Brasília", font=f(22), fill=(200, 230, 210))
+    d.text((40, H - 50), "Horários de Brasília", font=f(22), fill=(200, 230, 210))
     sg = "Siga: @hojetemjogobr"
-    d.text((W - 40 - d.textlength(sg, font=f(30, True)), H - 61), sg, font=f(30, True), fill=OURO)
+    d.text((W - 40 - d.textlength(sg, font=f(30, True)), H - 56), sg, font=f(30, True), fill=OURO)
     im.save(dst)
 
 
