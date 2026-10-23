@@ -79,34 +79,41 @@ def arte(o, s, dst):
 
     def lum(c): return 0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]
 
-    # cabeçalho: logo + título; mandante à esquerda, visitante à direita
+    # cabeçalho centralizado (no álbum o Telegram corta as laterais da miniatura)
     if os.path.exists(LOGO):
         lg = Image.open(LOGO).convert("RGBA"); lg.thumbnail((96, 96)); im.paste(lg, (30, 18), lg)
-    d.text((140, 22), "ESCALAÇÕES", font=f(46, True), fill=OURO)
-    sub = f'{o["liga"]} · {o["hora"].replace(":", "h")}'
-    d.text((142, 78), sub, font=f(26), fill=(200, 230, 210))
-
-    y0 = 130
-    d.rounded_rectangle((20, y0, W - 20, y0 + 96), 18, fill=VERDE2)
     meio = W / 2
-    d.text((meio - d.textlength("x", font=f(34, True)) / 2, y0 + 22), "x", font=f(34, True), fill=(200, 230, 210))
+    t = "ESCALAÇÕES"
+    d.text((meio - d.textlength(t, font=f(54, True)) / 2, 14), t, font=f(54, True), fill=OURO)
+    sub = f'{o["liga"]} · {o["hora"].replace(":", "h")}'
+    d.text((meio - d.textlength(sub, font=f(28)) / 2, 80), sub, font=f(28), fill=(200, 230, 210))
+
+    # faixa dos times: Mandante [escudo] x [escudo] Visitante, tudo junto do centro
+    y0 = 126
+    d.rounded_rectangle((20, y0, W - 20, y0 + 112), 18, fill=VERDE2)
+    xs = f(40, True)
+    d.text((meio - d.textlength("x", font=xs) / 2, y0 + 26), "x", font=xs, fill=(200, 230, 210))
+    CR = 84
     for lado, nm, url in (("home", o["casa"], o["lc"]), ("away", o["fora"], o["lf"])):
         fm = ros[lado].get("formation") or ""
-        sz = 34
-        while d.textlength(nm, font=f(sz, True)) > 560 and sz > 18: sz -= 1
-        tw = d.textlength(nm, font=f(sz, True)); fw = d.textlength(fm, font=f(22), )
-        c = img_url(url, 72)
+        sz = 42
+        while d.textlength(nm, font=f(sz, True)) > 520 and sz > 20: sz -= 1
+        tw = d.textlength(nm, font=f(sz, True)); fw = d.textlength(fm, font=f(22))
+        c = img_url(url, CR)
+        ty = y0 + 14 + (42 - sz) // 2
         if lado == "home":
-            if c: im.paste(c, (40 + (72 - c.width) // 2, y0 + 12 + (72 - c.height) // 2), c)
-            d.text((130, y0 + 12), nm, font=f(sz, True), fill="white")
-            d.text((130, y0 + 58), fm, font=f(22), fill=(255, 235, 150))
+            cx = meio - 40 - CR
+            if c: im.paste(c, (int(cx + (CR - c.width) // 2), y0 + 14 + (CR - c.height) // 2), c)
+            d.text((cx - 18 - tw, ty), nm, font=f(sz, True), fill="white")
+            d.text((cx - 18 - fw, y0 + 72), fm, font=f(22), fill=(255, 235, 150))
         else:
-            if c: im.paste(c, (W - 112 + (72 - c.width) // 2, y0 + 12 + (72 - c.height) // 2), c)
-            d.text((W - 130 - tw, y0 + 12), nm, font=f(sz, True), fill="white")
-            d.text((W - 130 - fw, y0 + 58), fm, font=f(22), fill=(255, 235, 150))
+            cx = meio + 40
+            if c: im.paste(c, (int(cx + (CR - c.width) // 2), y0 + 14 + (CR - c.height) // 2), c)
+            d.text((cx + CR + 18, ty), nm, font=f(sz, True), fill="white")
+            d.text((cx + CR + 18, y0 + 72), fm, font=f(22), fill=(255, 235, 150))
 
     # campo deitado: mandante ataca da esquerda pra direita
-    cx0, cy0, cx1, cy1 = 40, 250, W - 40, H - 70
+    cx0, cy0, cx1, cy1 = 40, 256, W - 40, H - 70
     d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, fill=(30, 120, 65))
     for k in range(1, 12, 2):
         xx = cx0 + (cx1 - cx0) * k / 12
