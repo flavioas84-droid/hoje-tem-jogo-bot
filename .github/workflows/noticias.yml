@@ -1,0 +1,30 @@
+name: Notícias Hoje Tem Jogo
+on:
+  schedule:
+    - cron: "0 13,17,21 * * *"   # 10h, 14h e 18h (Brasília)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: canal
+  cancel-in-progress: false
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Postar uma notícia
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: python3 agenda/noticias.py
+      - name: Salvar posts.json
+        run: |
+          if ! git diff --quiet posts.json; then
+            git config user.name "hoje-tem-jogo-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add posts.json
+            git commit -m "Notícia publicada"
+            git pull --rebase
+            git push
+          fi
