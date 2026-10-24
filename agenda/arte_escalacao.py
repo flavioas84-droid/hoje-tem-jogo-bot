@@ -42,8 +42,34 @@ def lateral(p):
     return 0
 
 
+# Quando a ESPN manda os titulares com posição "SUB" (ou sem posição), usa o formationPlace
+# (numeração Opta: 1 goleiro, 2 LD, 3 LE, 5/6 zagueiros...) para deduzir a posição.
+OPTA = {
+    "4-2-3-1": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 4: "DM-R", 8: "DM-L", 7: "RAM", 10: "AM", 11: "LAM", 9: "F"},
+    "4-4-2": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 7: "RM", 4: "CM-R", 8: "CM-L", 11: "LM", 10: "F-R", 9: "F-L"},
+    "4-3-3": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 8: "CM-R", 4: "CM", 10: "CM-L", 7: "RW", 9: "F", 11: "LW"},
+    "4-1-4-1": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 4: "DM", 7: "RM", 8: "CM-R", 10: "CM-L", 11: "LM", 9: "F"},
+    "3-5-2": {6: "CD-R", 5: "CD", 4: "CD-L", 2: "RWB", 7: "CM-R", 8: "CM", 11: "CM-L", 3: "LWB", 10: "F-R", 9: "F-L"},
+    "3-4-3": {6: "CD-R", 5: "CD", 4: "CD-L", 2: "RM", 7: "CM-R", 8: "CM-L", 3: "LM", 10: "RW", 9: "F", 11: "LW"},
+    "5-3-2": {2: "RWB", 6: "CD-R", 5: "CD", 4: "CD-L", 3: "LWB", 7: "CM-R", 8: "CM", 11: "CM-L", 10: "F-R", 9: "F-L"},
+}
+VALIDAS = ("G", "D", "M", "F", "CD", "CB", "LB", "RB", "DM", "CM", "AM", "LM", "RM", "LW", "RW", "W", "WB", "LWB", "RWB", "SW", "CDM", "CAM", "LAM", "RAM", "LDM", "RDM")
+
+
+def corrigir_posicoes(r, tit):
+    ruins = [a for a in tit if a.get("position", {}).get("abbreviation", "").upper().split("-")[0] not in VALIDAS]
+    if not ruins:
+        return
+    mapa = OPTA.get(r.get("formation") or "", OPTA["4-2-3-1"])
+    for a in tit:
+        fp = int(a.get("formationPlace") or 0)
+        ab = "G" if fp == 1 else mapa.get(fp, "M")
+        a["position"] = dict(a.get("position", {}), abbreviation=ab)
+
+
 def linhas(r):
     tit = [a for a in r["roster"] if a.get("starter")]
+    corrigir_posicoes(r, tit)
     gk = [a for a in tit if a["position"]["abbreviation"].upper() == "G"][:1]
     resto = sorted([a for a in tit if a not in gk], key=lambda a: (profundidade(a["position"]["abbreviation"]), a.get("formationPlace", 0)))
     try:
