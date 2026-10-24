@@ -7,7 +7,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 FONTE = "/usr/share/fonts/truetype/dejavu/DejaVuSans"
 f = lambda s, b=False: ImageFont.truetype(FONTE + ("-Bold" if b else "") + ".ttf", s)
-OURO, VERDE, VERDE2 = (255, 215, 0), (10, 70, 40), (18, 95, 55)
+OURO, VERDE, VERDE2 = (255, 215, 0), (16, 18, 20), (34, 37, 41)
 LOGO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "logo.png")
 
 
@@ -112,13 +112,13 @@ def arte(o, s, dst):
     t = "ESCALAÇÕES"
     d.text((meio - d.textlength(t, font=f(54, True)) / 2, 14), t, font=f(54, True), fill=OURO)
     sub = f'{o["liga"]} · {o["hora"].replace(":", "h")}'
-    d.text((meio - d.textlength(sub, font=f(28)) / 2, 80), sub, font=f(28), fill=(200, 230, 210))
+    d.text((meio - d.textlength(sub, font=f(28)) / 2, 80), sub, font=f(28), fill=(200, 205, 210))
 
     # faixa dos times: Mandante [escudo] x [escudo] Visitante, tudo junto do centro
     y0 = 126
     d.rounded_rectangle((20, y0, W - 20, y0 + 112), 18, fill=VERDE2)
     xs = f(40, True)
-    d.text((meio - d.textlength("x", font=xs) / 2, y0 + 26), "x", font=xs, fill=(200, 230, 210))
+    d.text((meio - d.textlength("x", font=xs) / 2, y0 + 26), "x", font=xs, fill=(200, 205, 210))
     CR = 84
     for lado, nm, url in (("home", o["casa"], o["lc"]), ("away", o["fora"], o["lf"])):
         fm = ros[lado].get("formation") or ""
@@ -140,10 +140,10 @@ def arte(o, s, dst):
 
     # campo deitado: mandante ataca da esquerda pra direita
     cx0, cy0, cx1, cy1 = 40, 256, W - 40, H - 70
-    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, fill=(30, 120, 65))
+    d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, fill=(26, 92, 54))
     for k in range(1, 12, 2):
         xx = cx0 + (cx1 - cx0) * k / 12
-        d.rectangle((xx, cy0, xx + (cx1 - cx0) / 12, cy1), fill=(34, 128, 70))
+        d.rectangle((xx, cy0, xx + (cx1 - cx0) / 12, cy1), fill=(30, 100, 59))
     L = (215, 240, 220); mid = (cx0 + cx1) / 2; cym = (cy0 + cy1) / 2
     d.rounded_rectangle((cx0, cy0, cx1, cy1), 12, outline=L, width=3)
     d.line((mid, cy0, mid, cy1), fill=L, width=3)
@@ -157,7 +157,7 @@ def arte(o, s, dst):
     for lado in ("home", "away"):
         r = ros[lado]
         bg = cor(r["team"].get("color"), OURO if lado == "home" else (255, 255, 255))
-        if abs(lum(bg) - lum((30, 120, 65))) < 40:
+        if abs(lum(bg) - lum((26, 92, 54))) < 40:
             bg = cor(r["team"].get("alternateColor"), (255, 255, 255))
         tx = "black" if lum(bg) > 140 else "white"
         ls = linhas(r)
@@ -178,10 +178,10 @@ def arte(o, s, dst):
                 nm = nome(a); sz = 20
                 while d.textlength(nm, font=f(sz, True)) > 150 and sz > 13: sz -= 1
                 tw = d.textlength(nm, font=f(sz, True))
-                d.rounded_rectangle((x - tw / 2 - 6, y + R + 2, x + tw / 2 + 6, y + R + sz + 10), 6, fill=(12, 60, 34))
+                d.rounded_rectangle((x - tw / 2 - 6, y + R + 2, x + tw / 2 + 6, y + R + sz + 10), 6, fill=(16, 18, 20))
                 d.text((x - tw / 2, y + R + 4), nm, font=f(sz, True), fill="white")
 
-    d.text((40, H - 50), "Horários de Brasília", font=f(22), fill=(200, 230, 210))
+    d.text((40, H - 50), "Horários de Brasília", font=f(22), fill=(200, 205, 210))
     sg = "Siga: @hojetemjogobr"
     d.text((W - 40 - d.textlength(sg, font=f(30, True)), H - 56), sg, font=f(30, True), fill=OURO)
     im.save(dst)
