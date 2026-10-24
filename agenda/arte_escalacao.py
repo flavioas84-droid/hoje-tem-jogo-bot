@@ -58,7 +58,9 @@ VALIDAS = ("G", "D", "M", "F", "CD", "CB", "LB", "RB", "DM", "CM", "AM", "LM", "
 
 def corrigir_posicoes(r, tit):
     ruins = [a for a in tit if a.get("position", {}).get("abbreviation", "").upper().split("-")[0] not in VALIDAS]
-    if not ruins:
+    # com formação conhecida e formationPlace de todos, a numeração Opta é mais confiável que a posição
+    usar_opta = (r.get("formation") or "") in OPTA and all(int(a.get("formationPlace") or 0) for a in tit)
+    if not ruins and not usar_opta:
         return
     mapa = OPTA.get(r.get("formation") or "", OPTA["4-2-3-1"])
     for a in tit:
@@ -154,11 +156,17 @@ def arte(o, s, dst):
         a, b = (cx0, cx0 + 50) if esq else (cx1 - 50, cx1)
         d.rectangle((a, cym - 90, b, cym + 90), outline=L, width=3)
 
+    cores = {}
     for lado in ("home", "away"):
         r = ros[lado]
         bg = cor(r["team"].get("color"), OURO if lado == "home" else (255, 255, 255))
-        if abs(lum(bg) - lum((26, 92, 54))) < 40:
+        dist = sum((x - y) ** 2 for x, y in zip(bg, (26, 92, 54))) ** 0.5
+        if dist < 90:
             bg = cor(r["team"].get("alternateColor"), (255, 255, 255))
+        if lado == "away" and sum((x - y) ** 2 for x, y in zip(bg, cores.get("home", (0, 0, 0)))) ** 0.5 < 90:
+            bg = cor(r["team"].get("alternateColor"), (255, 255, 255))
+            if sum((x - y) ** 2 for x, y in zip(bg, cores["home"])) ** 0.5 < 90: bg = (255, 255, 255)
+        cores[lado] = bg
         tx = "black" if lum(bg) > 140 else "white"
         ls = linhas(r)
         n = len(ls)
