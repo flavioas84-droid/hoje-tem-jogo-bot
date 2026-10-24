@@ -52,7 +52,8 @@ for o in sorted(agenda, key=lambda o: o["hora"]):
         times = {t["homeAway"]: t for t in c["competitors"]}
         if times["home"]["team"]["id"] != tid(o["lc"]):
             continue
-        if ev["status"]["type"].get("state") == "post" and not teste:
+        # Escalação só ANTES do apito inicial (regra do usuário, 24/10): jogo começado ou encerrado não sai.
+        if ev["status"]["type"].get("state") != "pre" and not teste:
             break
         try:
             s = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{cod}/summary?event={ev['id']}")
