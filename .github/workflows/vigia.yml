@@ -1,0 +1,32 @@
+name: Vigia Hoje Tem Jogo
+# Só funciona com o repositório PÚBLICO (minutos grátis). Privado: sai na hora, sem gastar.
+on:
+  schedule:
+    - cron: "7 9-23 * * *"    # tenta (re)ligar de hora em hora, 6h07 a 20h07 (Brasília)
+    - cron: "7 0-2 * * *"     # 21h07 a 23h07 (Brasília)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: vigia
+  cancel-in-progress: false
+jobs:
+  vigiar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Repositório é público?
+        id: vis
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "privado=$(gh api repos/${{ github.repository }} --jq .private)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.vis.outputs.privado == 'false'
+      - name: Instalar Pillow
+        if: steps.vis.outputs.privado == 'false'
+        run: pip install --quiet pillow || true
+      - name: Vigiar o canal
+        if: steps.vis.outputs.privado == 'false'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+        run: bash agenda/vigia.sh
