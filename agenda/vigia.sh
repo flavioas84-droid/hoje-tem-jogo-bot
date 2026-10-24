@@ -9,7 +9,17 @@ while true; do
   git pull --rebase -q || true
   python3 agenda/enquete.py || true
   python3 agenda/escalacoes.py || true
-  python3 agenda/resultados.py || true
+  # resultados só nos horários combinados com o usuário: 17h, 19h e 23h45 (Brasília)
+  if python3 - <<'PY'
+import json, datetime as dt
+from zoneinfo import ZoneInfo
+agora = dt.datetime.now(ZoneInfo("America/Sao_Paulo"))
+hoje = str(agora.date()); m = agora.hour * 60 + agora.minute
+feitas = sum(1 for p in json.load(open("posts.json")) if p.get("tipo") == "resultado" and p.get("data") == hoje)
+devidas = sum(1 for h in (17 * 60, 19 * 60, 23 * 60 + 45) if m >= h)
+raise SystemExit(0 if feitas < devidas else 1)
+PY
+  then python3 agenda/resultados.py || true; fi
   if python3 - <<'PY'
 import json, datetime as dt
 from zoneinfo import ZoneInfo
