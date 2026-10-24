@@ -83,7 +83,8 @@ if not blocos:
 texto = "🏁 FIM DE JOGO\n\n" + "\n\n".join(blocos)
 if dry:
     print(texto); sys.exit(0)
-r = subprocess.run(["curl", "-s", "https://api.telegram.org/bot__SAVED_KEY__/sendMessage",
+token = os.environ.get("TELEGRAM_TOKEN") or "__SAVED_KEY__"
+r = subprocess.run(["curl", "-s", f"https://api.telegram.org/bot{token}/sendMessage",
                     "--data-urlencode", f"chat_id={CHAT}", "--data-urlencode", f"text={texto}"],
                    capture_output=True, text=True)
 resp = json.loads(r.stdout or "{}")
