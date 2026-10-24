@@ -13,25 +13,35 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - name: Repositório é público? (aí o vigia.yml assume)
+        id: vis
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "privado=$(gh api repos/${{ github.repository }} --jq .private)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
+        if: steps.vis.outputs.privado == 'true'
       - name: Instalar Pillow
         continue-on-error: true
         run: pip install --quiet pillow
       - name: Enquete do jogo do dia
+        if: steps.vis.outputs.privado == 'true'
         continue-on-error: true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python3 agenda/enquete.py
       - name: Postar escalações novas
+        if: steps.vis.outputs.privado == 'true'
         continue-on-error: true
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python3 agenda/escalacoes.py
       - name: Postar resultados novos
+        if: steps.vis.outputs.privado == 'true'
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python3 agenda/resultados.py
       - name: Salvar posts.json
+        if: steps.vis.outputs.privado == 'true'
         run: |
           if ! git diff --quiet posts.json; then
             git config user.name "hoje-tem-jogo-bot"
