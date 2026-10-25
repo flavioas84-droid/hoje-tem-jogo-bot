@@ -7,6 +7,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: vigia
   cancel-in-progress: false
@@ -15,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 355
     steps:
+      - name: Marcar início
+        run: echo "INICIO=$(date +%s)" >> "$GITHUB_ENV"
       - name: Repositório é público?
         id: vis
         env:
@@ -30,3 +33,11 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: bash agenda/vigia.sh
+      # O agendador do GitHub pula horários; por isso o próprio vigia religa o próximo ao terminar.
+      # Só religa se rodou mais de 10 min (evita ciclo rápido em caso de erro).
+      - name: Religar o vigia
+        if: always() && steps.vis.outputs.privado == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ $(( $(date +%s) - INICIO )) -gt 600 ]; then gh workflow run vigia.yml --ref main -R ${{ github.repository }}; fi
