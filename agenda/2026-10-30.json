@@ -1,0 +1,152 @@
+[
+ {
+  "liga": "Saudi Pro League",
+  "hora": "10:45",
+  "casa": "Abha",
+  "fora": "Al Ittihad",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21833.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png",
+  "tv": "Canal GOAT e SporTV 3",
+  "rodada": 12
+ },
+ {
+  "liga": "Saudi Pro League",
+  "hora": "11:50",
+  "casa": "Al Diriyah",
+  "fora": "Neom",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/130899.png",
+  "tv": "Canal GOAT",
+  "rodada": 12
+ },
+ {
+  "liga": "2. Bundesliga",
+  "hora": "14:30",
+  "casa": "Arminia Bielefeld",
+  "fora": "Eintracht Braunschweig",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2506.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3067.png",
+  "tv": "Canal GOAT",
+  "rodada": 10
+ },
+ {
+  "liga": "2. Bundesliga",
+  "hora": "14:30",
+  "casa": "Energie Cottbus",
+  "fora": "Bochum",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/123.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/121.png",
+  "tv": "Jovem Pan",
+  "rodada": 10
+ },
+ {
+  "liga": "Ligue 1",
+  "hora": "15:00",
+  "casa": "Le Havre",
+  "fora": "PSG",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+  "tv": "CazéTV e XSports",
+  "rodada": 9
+ },
+ {
+  "liga": "Saudi Pro League",
+  "hora": "15:00",
+  "casa": "Al Shabab",
+  "fora": "Al Ahli",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/793.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+  "tv": "Canal GOAT",
+  "rodada": 12
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "16:30",
+  "casa": "Elversberg",
+  "fora": "Mainz 05",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+  "tv": "Canal GOAT",
+  "rodada": 8
+ },
+ {
+  "liga": "Championship",
+  "hora": "17:00",
+  "casa": "Sheffield United",
+  "fora": "Wrexham",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 13
+ },
+ {
+  "liga": "La Liga",
+  "hora": "17:00",
+  "casa": "Villarreal",
+  "fora": "Espanyol",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+  "tv": "SportyNet",
+  "rodada": 11
+ },
+ {
+  "liga": "Ligue 1",
+  "hora": "17:05",
+  "casa": "Lille",
+  "fora": "Lens",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+  "tv": "CazéTV",
+  "rodada": 9
+ },
+ {
+  "liga": "Liga Portugal",
+  "hora": "17:15",
+  "casa": "Casa Pia",
+  "fora": "Sporting",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 10
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "19:30",
+  "casa": "Criciúma",
+  "fora": "Ponte Preta",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+  "tv": "Disney+",
+  "rodada": 36
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "20:00",
+  "casa": "Corinthians",
+  "fora": "Mirassol",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+  "tv": "SporTV e Premiere",
+  "rodada": 33
+ },
+ {
+  "liga": "Argentino",
+  "hora": "21:15",
+  "casa": "Racing",
+  "fora": "Aldosivi",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
+  "tv": "Disney+",
+  "rodada": 15
+ },
+ {
+  "liga": "Mexicano",
+  "hora": "22:00",
+  "casa": "Atlético San Luis",
+  "fora": "Atlas",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/15720.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+  "tv": "Disney+",
+  "rodada": 15
+ }
+]
