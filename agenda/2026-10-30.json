@@ -148,5 +148,15 @@
   "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
   "tv": "Disney+",
   "rodada": 15
+ },
+ {
+  "liga": "Ligue 1",
+  "hora": "15:00",
+  "casa": "Nice",
+  "fora": "Rennes",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+  "tv": "CazéTV",
+  "rodada": 9
  }
 ]
