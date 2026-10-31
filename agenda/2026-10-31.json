@@ -1,0 +1,472 @@
+[
+ {
+  "liga": "2. Bundesliga",
+  "hora": "09:00",
+  "casa": "Kaiserslautern",
+  "fora": "Hertha Berlin",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/130.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/129.png",
+  "tv": "Jovem Pan",
+  "rodada": 10
+ },
+ {
+  "liga": "2. Bundesliga",
+  "hora": "09:00",
+  "casa": "SV Darmstadt 98",
+  "fora": "Magdeburg",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3812.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/10382.png",
+  "tv": "Onefootball",
+  "rodada": 10
+ },
+ {
+  "liga": "2. Bundesliga",
+  "hora": "09:00",
+  "casa": "VfL Wolfsburg",
+  "fora": "VfL Osnabruck",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7013.png",
+  "tv": "Canal GOAT",
+  "rodada": 10
+ },
+ {
+  "liga": "Championship",
+  "hora": "09:30",
+  "casa": "Stoke City",
+  "fora": "Preston North End",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 13
+ },
+ {
+  "liga": "Premier League",
+  "hora": "09:30",
+  "casa": "Chelsea",
+  "fora": "Manchester United",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+  "tv": "CazéTV e Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "La Liga",
+  "hora": "10:00",
+  "casa": "Levante",
+  "fora": "Atlético de Madrid",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+  "tv": "SportyNet",
+  "rodada": 11
+ },
+ {
+  "liga": "Serie A",
+  "hora": "11:00",
+  "casa": "Bologna",
+  "fora": "Monza",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+  "tv": "Disney+",
+  "rodada": 10
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "11:30",
+  "casa": "Bayer Leverkusen",
+  "fora": "VfB Stuttgart",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+  "tv": "Canal GOAT e XSports",
+  "rodada": 8
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "11:30",
+  "casa": "Borussia Mönchengladbach",
+  "fora": "Paderborn",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+  "tv": "Canal GOAT",
+  "rodada": 8
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "11:30",
+  "casa": "FC Augsburg",
+  "fora": "SC Freiburg",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+  "tv": "YouTube (Romário TV)",
+  "rodada": 8
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "11:30",
+  "casa": "Schalke 04",
+  "fora": "RB Leipzig",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+  "tv": "CazéTV",
+  "rodada": 8
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "11:30",
+  "casa": "Werder Bremen",
+  "fora": "TSG Hoffenheim",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+  "tv": "Jovem Pan e SportyNet",
+  "rodada": 8
+ },
+ {
+  "liga": "Championship",
+  "hora": "12:00",
+  "casa": "Millwall",
+  "fora": "Derby County",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
+  "tv": "Disney+",
+  "rodada": 13
+ },
+ {
+  "liga": "Premier League",
+  "hora": "12:00",
+  "casa": "Bournemouth",
+  "fora": "Leeds United",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Premier League",
+  "hora": "12:00",
+  "casa": "Brentford",
+  "fora": "Nottingham Forest",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+  "tv": "YouTube (ESPN Brasil) e Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Premier League",
+  "hora": "12:00",
+  "casa": "Coventry City",
+  "fora": "Sunderland",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+  "tv": "Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Premier League",
+  "hora": "12:00",
+  "casa": "Hull City",
+  "fora": "Ipswich Town",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+  "tv": "Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Premier League",
+  "hora": "12:00",
+  "casa": "Manchester City",
+  "fora": "Brighton & Hove Albion",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "La Liga",
+  "hora": "12:15",
+  "casa": "Rayo Vallecano",
+  "fora": "Celta Vigo",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+  "tv": "CazéTV",
+  "rodada": 11
+ },
+ {
+  "liga": "Eredivisie",
+  "hora": "12:30",
+  "casa": "Feyenoord Rotterdam",
+  "fora": "Fortuna Sittard",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
+  "tv": "Disney+",
+  "rodada": 11
+ },
+ {
+  "liga": "MLS",
+  "hora": "14:00",
+  "casa": "Charlotte FC",
+  "fora": "Orlando City SC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "Serie A",
+  "hora": "14:00",
+  "casa": "Udinese",
+  "fora": "Roma",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 10
+ },
+ {
+  "liga": "Bundesliga",
+  "hora": "14:30",
+  "casa": "Bayern Munich",
+  "fora": "Borussia Dortmund",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+  "tv": "CazéTV, XSports, SportyNet e SporTV",
+  "rodada": 8
+ },
+ {
+  "liga": "La Liga",
+  "hora": "14:30",
+  "casa": "Real Betis",
+  "fora": "Málaga",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+  "tv": "CazéTV",
+  "rodada": 11
+ },
+ {
+  "liga": "Premier League",
+  "hora": "14:30",
+  "casa": "Tottenham",
+  "fora": "Crystal Palace",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Eredivisie",
+  "hora": "14:45",
+  "casa": "Heerenveen",
+  "fora": "NEC Nijmegen",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+  "tv": "Disney+",
+  "rodada": 11
+ },
+ {
+  "liga": "Eredivisie",
+  "hora": "14:45",
+  "casa": "PSV Eindhoven",
+  "fora": "Willem II",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+  "tv": "Disney+",
+  "rodada": 11
+ },
+ {
+  "liga": "MLS",
+  "hora": "15:00",
+  "casa": "Columbus Crew",
+  "fora": "D.C. United",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "MLS",
+  "hora": "15:00",
+  "casa": "FC Cincinnati",
+  "fora": "Philadelphia Union",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "MLS",
+  "hora": "15:00",
+  "casa": "New York City FC",
+  "fora": "CF Montréal",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "Saudi Pro League",
+  "hora": "15:00",
+  "casa": "Al Hilal",
+  "fora": "Al Fateh",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+  "tv": "Band e Canal GOAT",
+  "rodada": 12
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "16:00",
+  "casa": "Coritiba",
+  "fora": "Vitória",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+  "tv": "Premiere",
+  "rodada": 33
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:00",
+  "casa": "Botafogo-SP",
+  "fora": "Sport",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 36
+ },
+ {
+  "liga": "MLS",
+  "hora": "16:00",
+  "casa": "Sporting Kansas City",
+  "fora": "FC Dallas",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "MLS",
+  "hora": "16:00",
+  "casa": "St. Louis CITY SC",
+  "fora": "San Diego FC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "2. Bundesliga",
+  "hora": "16:30",
+  "casa": "Karlsruher SC",
+  "fora": "Heidenheim",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/4471.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+  "tv": "Onefootball",
+  "rodada": 10
+ },
+ {
+  "liga": "Ligue 1",
+  "hora": "16:45",
+  "casa": "Troyes",
+  "fora": "Le Mans",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+  "tv": "XSports e CazéTV",
+  "rodada": 9
+ },
+ {
+  "liga": "Serie A",
+  "hora": "16:45",
+  "casa": "AC Milan",
+  "fora": "Internazionale",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 10
+ },
+ {
+  "liga": "Eredivisie",
+  "hora": "17:00",
+  "casa": "Ajax Amsterdam",
+  "fora": "AZ Alkmaar",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+  "tv": "Disney+",
+  "rodada": 11
+ },
+ {
+  "liga": "La Liga",
+  "hora": "17:00",
+  "casa": "Barcelona",
+  "fora": "Alavés",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+  "tv": "CazéTV",
+  "rodada": 11
+ },
+ {
+  "liga": "Premier League",
+  "hora": "17:00",
+  "casa": "Aston Villa",
+  "fora": "Fulham",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+  "tv": "Disney+",
+  "rodada": 9
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "18:00",
+  "casa": "Vila Nova",
+  "fora": "Juventude",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+  "tv": "RedeTV!, Canal GOAT e Disney+",
+  "rodada": 36
+ },
+ {
+  "liga": "Liga Portugal",
+  "hora": "17:30",
+  "casa": "FC Porto",
+  "fora": "Estoril",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
+  "tv": "ESPN 2 e Disney+",
+  "rodada": 10
+ },
+ {
+  "liga": "MLS",
+  "hora": "18:00",
+  "casa": "LA Galaxy",
+  "fora": "Austin FC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "MLS",
+  "hora": "18:00",
+  "casa": "San Jose Earthquakes",
+  "fora": "Real Salt Lake",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "19:30",
+  "casa": "Náutico",
+  "fora": "Avaí",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+  "tv": "Ge TV, SporTV e Premiere",
+  "rodada": 36
+ },
+ {
+  "liga": "MLS",
+  "hora": "22:30",
+  "casa": "Colorado Rapids",
+  "fora": "Chicago Fire FC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+  "tv": "Apple TV",
+  "rodada": 33
+ }
+]
