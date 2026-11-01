@@ -30,7 +30,7 @@ def profundidade(p):
     if p in ("CM", "LM", "RM", "M"): return 3
     if p in ("AM", "CAM", "LAM", "RAM"): return 3.5
     if p in ("LW", "RW", "W"): return 4
-    return 5
+    return 5  # F, CF, ST, LF, RF...
 
 
 def lateral(p):
@@ -50,10 +50,12 @@ OPTA = {
     "4-3-3": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 8: "CM-R", 4: "CM", 10: "CM-L", 7: "RW", 9: "F", 11: "LW"},
     "4-1-4-1": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 4: "DM", 7: "RM", 8: "CM-R", 10: "CM-L", 11: "LM", 9: "F"},
     "3-5-2": {6: "CD-R", 5: "CD", 4: "CD-L", 2: "RWB", 7: "CM-R", 8: "CM", 11: "CM-L", 3: "LWB", 10: "F-R", 9: "F-L"},
+    "3-4-2-1": {6: "CD-R", 5: "CD", 4: "CD-L", 2: "RM", 7: "CM-R", 8: "CM-L", 3: "LM", 10: "RAM", 11: "LAM", 9: "F"},
+    "4-4-1-1": {2: "RB", 5: "CD-R", 6: "CD-L", 3: "LB", 7: "RM", 4: "CM-R", 8: "CM-L", 11: "LM", 10: "AM", 9: "F"},
     "3-4-3": {6: "CD-R", 5: "CD", 4: "CD-L", 2: "RM", 7: "CM-R", 8: "CM-L", 3: "LM", 10: "RW", 9: "F", 11: "LW"},
     "5-3-2": {2: "RWB", 6: "CD-R", 5: "CD", 4: "CD-L", 3: "LWB", 7: "CM-R", 8: "CM", 11: "CM-L", 10: "F-R", 9: "F-L"},
 }
-VALIDAS = ("G", "D", "M", "F", "CD", "CB", "LB", "RB", "DM", "CM", "AM", "LM", "RM", "LW", "RW", "W", "WB", "LWB", "RWB", "SW", "CDM", "CAM", "LAM", "RAM", "LDM", "RDM")
+VALIDAS = ("G", "D", "M", "F", "CD", "CB", "LB", "RB", "DM", "CM", "AM", "LM", "RM", "LW", "RW", "W", "WB", "LWB", "RWB", "SW", "CDM", "CAM", "LAM", "RAM", "LDM", "RDM", "CF", "ST", "LF", "RF")
 
 
 def corrigir_posicoes(r, tit):
@@ -61,6 +63,8 @@ def corrigir_posicoes(r, tit):
     # com formação conhecida e formationPlace de todos, a numeração Opta é mais confiável que a posição
     usar_opta = (r.get("formation") or "") in OPTA and all(int(a.get("formationPlace") or 0) for a in tit)
     if not ruins and not usar_opta:
+        return
+    if not ruins and (r.get("formation") or "") not in OPTA:
         return
     mapa = OPTA.get(r.get("formation") or "", OPTA["4-2-3-1"])
     for a in tit:
