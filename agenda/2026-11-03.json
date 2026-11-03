@@ -1,0 +1,113 @@
+[
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "Galatasaray",
+  "fora": "Stuttgart",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+  "tv": "Space e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "Shakhtar",
+  "fora": "Sporting",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+  "tv": "TNT e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Atlético de Madrid",
+  "fora": "Bayern de Munique",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+  "tv": "Space e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Barcelona",
+  "fora": "Aston Villa",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+  "tv": "SBT, TNT e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Bodo/Glimt",
+  "fora": "Lille",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Feyenoord",
+  "fora": "Inter de Milão",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "LASK",
+  "fora": "Slovan Bratislava",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Manchester United",
+  "fora": "Roma",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+  "tv": "YouTube (TNT Sports) e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Villarreal",
+  "fora": "PSG",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Championship",
+  "hora": "17:00",
+  "casa": "West Brom",
+  "fora": "Southampton",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 14
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "19:30",
+  "casa": "Chapecoense",
+  "fora": "Mirassol",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+  "tv": "Premiere",
+  "rodada": 34
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "21:30",
+  "casa": "Internacional",
+  "fora": "Coritiba",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+  "tv": "Premiere",
+  "rodada": 34
+ }
+]
