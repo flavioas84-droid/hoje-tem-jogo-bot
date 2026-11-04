@@ -1,0 +1,142 @@
+[
+ {
+  "liga": "Europa League",
+  "hora": "12:30",
+  "casa": "Rennes",
+  "fora": "Olympiacos",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "tv": "YouTube (CazéTV)"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "AEK Athens",
+  "fora": "Real Madrid",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+  "tv": "TNT e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "Fenerbahçe",
+  "fora": "Liverpool",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+  "tv": "Space e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Borussia Dortmund",
+  "fora": "Real Betis",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+  "tv": "Space, YouTube (TNT Sports) e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "FC Porto",
+  "fora": "Napoli",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Lens",
+  "fora": "Como",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "PSV Eindhoven",
+  "fora": "Club Brugge",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "RB Leipzig",
+  "fora": "Manchester City",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Slavia Prague",
+  "fora": "Arsenal",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+  "tv": "TNT e HBO Max"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Viking FK",
+  "fora": "Sabah FK",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+  "tv": "HBO Max"
+ },
+ {
+  "liga": "Championship",
+  "hora": "17:00",
+  "casa": "Bristol City",
+  "fora": "Wolverhampton",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 14
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "19:30",
+  "casa": "Athletico-PR",
+  "fora": "Vasco",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+  "tv": "Record, Premiere e YouTube (CazéTV)",
+  "rodada": 34
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "19:30",
+  "casa": "Flamengo",
+  "fora": "Grêmio",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+  "tv": "Premiere",
+  "rodada": 34
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "21:30",
+  "casa": "Botafogo",
+  "fora": "Atlético-MG",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+  "tv": "Globo (RJ, MG e parte da rede) e Premiere",
+  "rodada": 34
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "21:30",
+  "casa": "São Paulo",
+  "fora": "Corinthians",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+  "tv": "Globo (SP), Premiere e YouTube (GE TV)",
+  "rodada": 34
+ }
+]
