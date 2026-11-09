@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "liga": "Copa do Brasil Feminina",
+  "hora": "11:00",
+  "casa": "Bragantino",
+  "fora": "Internacional",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+  "tv": "SporTV"
+ },
+ {
+  "liga": "Alemão Feminino",
+  "hora": "14:00",
+  "casa": "Colônia",
+  "fora": "RB Leipzig",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+  "tv": "DAZN",
+  "rodada": 9
+ },
+ {
+  "liga": "Paulista Sub-20",
+  "hora": "15:00",
+  "casa": "Palmeiras",
+  "fora": "Santos",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+  "tv": "YouTube (TNT Sports)"
+ },
+ {
+  "liga": "Copa da Inglaterra",
+  "hora": "16:30",
+  "casa": "Plymouth Parkway",
+  "fora": "Berkhamsted",
+  "lc": "local/plymouth-parkway.png",
+  "lf": "local/berkhamsted.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Taça Fares Lopes",
+  "hora": "19:00",
+  "casa": "Vila Real",
+  "fora": "Ceará B",
+  "lc": "local/vila-real-ce.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+  "tv": "YouTube (Metrópoles Esportes)"
+ },
+ {
+  "liga": "Paulista Fem. Sub-20",
+  "hora": "21:00",
+  "casa": "Corinthians",
+  "fora": "Palmeiras",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+  "tv": "TV Brasil e YouTube (Paulistão)"
+ }
+]
