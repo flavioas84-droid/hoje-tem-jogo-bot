@@ -1,1 +1,83 @@
-[]
+[
+ {
+  "liga": "Champions Feminina",
+  "hora": "14:45",
+  "casa": "Häcken",
+  "fora": "Chelsea",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21124.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/19970.png",
+  "tv": "YouTube (ESPN Brasil) e Disney+"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "14:45",
+  "casa": "Real Madrid",
+  "fora": "Paris FC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21128.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/21640.png",
+  "tv": "ESPN 4 e Disney+"
+ },
+ {
+  "liga": "Copa do Rei",
+  "hora": "15:00",
+  "casa": "Anaitasuna",
+  "fora": "Alavés",
+  "lc": "local/anaitasuna.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Copa do Rei",
+  "hora": "17:00",
+  "casa": "Tavernes",
+  "fora": "Valencia",
+  "lc": "local/tavernes.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+  "tv": "ESPN 2 e Disney+"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "17:00",
+  "casa": "Roma",
+  "fora": "Servette",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21685.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20835.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "17:00",
+  "casa": "Inter de Milão",
+  "fora": "Manchester City",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/131635.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/19257.png",
+  "tv": "ESPN 4 e Disney+"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "17:00",
+  "casa": "PSG",
+  "fora": "Bayern de Munique",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/19258.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20103.png",
+  "tv": "ESPN e Disney+"
+ },
+ {
+  "liga": "Taça Fares Lopes",
+  "hora": "19:00",
+  "casa": "Guarani de Juazeiro",
+  "fora": "Quixadá",
+  "lc": "local/guarani-juazeiro.png",
+  "lf": "local/quixada.png",
+  "tv": "YouTube (Metrópoles Esportes)"
+ },
+ {
+  "liga": "Copa FMF (final)",
+  "hora": "21:30",
+  "casa": "Cuiabá",
+  "fora": "Chapada",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+  "lf": "local/chapada-mt.png",
+  "tv": "YouTube (FMF TV e RedeTV! Esportes)"
+ }
+]
