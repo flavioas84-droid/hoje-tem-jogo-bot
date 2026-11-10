@@ -1,7 +1,1 @@
-[
- {
-  "message_id": 554,
-  "data": "2026-11-10",
-  "tipo": "agenda"
- }
-]
+[{"message_id": 554, "data": "2026-11-10", "tipo": "agenda"}, {"message_id": 556, "data": "2026-11-10", "tipo": "enquete", "inicio": "2026-11-10T17:00:00-03:00", "jogo": "PSG x Bayern de Munique"}, {"message_id": 557, "data": "2026-11-10", "tipo": "noticia", "noticia": "17498982"}]
