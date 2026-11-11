@@ -1,0 +1,210 @@
+[
+ {
+  "liga": "Pernambucano",
+  "hora": "15:00",
+  "casa": "Ypiranga",
+  "fora": "Afogados da Ingazeira",
+  "lc": "local/ypiranga.png",
+  "lf": "local/afogados.png",
+  "tv": "YouTube (FPEF TV)"
+ },
+ {
+  "liga": "Sergipano B",
+  "hora": "15:00",
+  "casa": "Estanciano",
+  "fora": "Barra",
+  "lc": "local/estanciano.png",
+  "lf": "local/barra.png",
+  "tv": "YouTube (93 Sports)"
+ },
+ {
+  "liga": "Copa Fares Lopes",
+  "hora": "15:30",
+  "casa": "Tirol",
+  "fora": "Fortaleza",
+  "lc": "local/tirol.png",
+  "lf": "local/fortaleza.png",
+  "tv": "Metrópoles Esportes (YouTube)"
+ },
+ {
+  "liga": "Pernambucano",
+  "hora": "16:00",
+  "casa": "Petrolina",
+  "fora": "Chã Grande",
+  "lc": "local/petrolina.png",
+  "lf": "local/chagrande.png",
+  "tv": "YouTube (FPEF TV)"
+ },
+ {
+  "liga": "Pernambucano",
+  "hora": "20:00",
+  "casa": "Central",
+  "fora": "Salgueiro",
+  "lc": "local/central.png",
+  "lf": "local/salgueiro.png",
+  "tv": "YouTube (FPEF TV)"
+ },
+ {
+  "liga": "Pernambucano",
+  "hora": "20:00",
+  "casa": "Facilnet",
+  "fora": "Belo Jardim",
+  "lc": "local/facilnet.png",
+  "lf": "local/belojardim.png",
+  "tv": "YouTube (FPEF TV)"
+ },
+ {
+  "liga": "Copa Paraíba",
+  "hora": "20:00",
+  "casa": "Atlético Cajazeiras",
+  "fora": "Treze",
+  "lc": "local/cajazeiras.png",
+  "lf": "local/treze.png",
+  "tv": "Metrópoles Esportes"
+ },
+ {
+  "liga": "Copa Paraíba",
+  "hora": "20:00",
+  "casa": "Esporte de Patos",
+  "fora": "Nacional de Patos",
+  "lc": "local/x_patos.png",
+  "lf": "local/nacionalpatos.png",
+  "tv": "Metrópoles Esportes"
+ },
+ {
+  "liga": "Copa Paraíba",
+  "hora": "20:00",
+  "casa": "Serra Branca",
+  "fora": "Campinense",
+  "lc": "local/serrabranca.png",
+  "lf": "local/campinense.png",
+  "tv": "Metrópoles Esportes"
+ },
+ {
+  "liga": "Uruguaio B",
+  "hora": "16:30",
+  "casa": "La Luz",
+  "fora": "Fénix",
+  "lc": "local/laluz.png",
+  "lf": "local/fenix.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Uruguaio B",
+  "hora": "16:30",
+  "casa": "Tacuarembó",
+  "fora": "Miramar",
+  "lc": "local/tacuarembo.png",
+  "lf": "local/miramar.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "19:00",
+  "casa": "Londrina",
+  "fora": "Náutico",
+  "lc": "local/londrina.png",
+  "lf": "local/nautico.png",
+  "tv": "Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "CAF Champions Feminina",
+  "hora": "09:00",
+  "casa": "ASFAR",
+  "fora": "Lekié",
+  "lc": "local/x_asfar.png",
+  "lf": "local/x_lekie.png",
+  "tv": "YouTube (CAF TV)"
+ },
+ {
+  "liga": "CAF Champions Feminina",
+  "hora": "12:00",
+  "casa": "Mamelodi Sundowns",
+  "fora": "Kawempe Muslim",
+  "lc": "local/sundowns.png",
+  "lf": "local/x_kawempe.png",
+  "tv": "YouTube (CAF TV)"
+ },
+ {
+  "liga": "Liga Europa Feminina",
+  "hora": "14:00",
+  "casa": "Fenerbahçe",
+  "fora": "Real Sociedad",
+  "lc": "local/fenerbahce.png",
+  "lf": "local/realsociedad.png",
+  "tv": "YouTube (Fenerbahçe)"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "14:45",
+  "casa": "Leuven",
+  "fora": "Køge",
+  "lc": "local/leuven.png",
+  "lf": "local/koge.png",
+  "tv": "ESPN 4"
+ },
+ {
+  "liga": "Carioca Feminino",
+  "hora": "15:00",
+  "casa": "Vasco",
+  "fora": "Araruama",
+  "lc": "local/vasco.png",
+  "lf": "local/araruama.png",
+  "tv": "YouTube (Vasco TV)"
+ },
+ {
+  "liga": "Players Cup Feminina",
+  "hora": "16:00",
+  "casa": "Tottenham",
+  "fora": "Crystal Palace",
+  "lc": "local/tottenham.png",
+  "lf": "local/palace.png",
+  "tv": "YouTube (BarclaysWSL)"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "17:00",
+  "casa": "Benfica",
+  "fora": "Áustria Viena",
+  "lc": "local/benfica.png",
+  "lf": "local/austria.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Champions Feminina",
+  "hora": "17:00",
+  "casa": "Juventus",
+  "fora": "Lyon",
+  "lc": "local/juventus.png",
+  "lf": "local/lyon.png",
+  "tv": "ESPN"
+ },
+ {
+  "liga": "Superliga USL Feminina",
+  "hora": "21:00",
+  "casa": "DC Power",
+  "fora": "Brooklyn",
+  "lc": "local/dcpower.png",
+  "lf": "local/brooklyn.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Copa do Brasil Feminina",
+  "hora": "21:30",
+  "casa": "Flamengo",
+  "fora": "Internacional",
+  "lc": "local/flamengo.png",
+  "lf": "local/inter.png",
+  "tv": "Ge TV, NSports, Lance!, XSports e sportv"
+ },
+ {
+  "liga": "Mexicano Feminino",
+  "hora": "22:00",
+  "casa": "América",
+  "fora": "Toluca",
+  "lc": "local/america.png",
+  "lf": "local/toluca.png",
+  "tv": "YouTube (Liga MX Femenil)"
+ }
+]
