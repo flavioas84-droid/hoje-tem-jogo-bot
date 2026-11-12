@@ -34,6 +34,17 @@ posts = json.load(open("posts.json"))
 feitos = {k for p in posts for k in p.get("jogos", [])}
 tid = lambda url: url.rsplit("/", 1)[-1].split(".")[0]
 
+import unicodedata as _ud
+def _norm(t):
+    return "".join(ch for ch in _ud.normalize("NFD", t or "") if _ud.category(ch) != "Mn").lower().strip()
+def mesmo_mandante(team, o):
+    # Compara pelo id da ESPN no logo; se o escudo for local (local/x.png), compara pelo nome (bug de 11/11: Londrina x Náutico ficou sem escalação).
+    i = tid(o["lc"])
+    if i.isdigit():
+        return team["id"] == i
+    n = _norm(o["casa"])
+    return n in {_norm(team.get(k)) for k in ("displayName", "shortDisplayName", "name", "location")}
+
 cache = {}
 def eventos(cod):
     if cod not in cache:
@@ -57,7 +68,7 @@ for o in sorted(agenda, key=lambda o: o["hora"]):
     for e in eventos(cod):
         c = e["competitions"][0]
         times = {t["homeAway"]: t for t in c["competitors"]}
-        if times["home"]["team"]["id"] != tid(o["lc"]):
+        if not mesmo_mandante(times["home"]["team"], o):
             continue
         st = e["status"]["type"]
         if not (st.get("completed") and st.get("state") == "post"):
