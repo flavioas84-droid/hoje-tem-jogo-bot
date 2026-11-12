@@ -32,6 +32,17 @@ except FileNotFoundError:
 posts = json.load(open("posts.json"))
 feitos = {k for p in posts if p.get("tipo") == "escalacao" for k in p.get("jogos", [])}
 tid = lambda url: url.rsplit("/", 1)[-1].split(".")[0]
+
+import unicodedata as _ud
+def _norm(t):
+    return "".join(ch for ch in _ud.normalize("NFD", t or "") if _ud.category(ch) != "Mn").lower().strip()
+def mesmo_mandante(team, o):
+    # Compara pelo id da ESPN no logo; se o escudo for local (local/x.png), compara pelo nome (bug de 11/11: Londrina x Náutico ficou sem escalação).
+    i = tid(o["lc"])
+    if i.isdigit():
+        return team["id"] == i
+    n = _norm(o["casa"])
+    return n in {_norm(team.get(k)) for k in ("displayName", "shortDisplayName", "name", "location")}
 get = lambda u: json.load(urllib.request.urlopen(u, timeout=20))
 e = html.escape
 
@@ -52,7 +63,7 @@ for o in sorted(agenda, key=lambda o: o["hora"]):
     for ev in eventos(cod):
         c = ev["competitions"][0]
         times = {t["homeAway"]: t for t in c["competitors"]}
-        if times["home"]["team"]["id"] != tid(o["lc"]):
+        if not mesmo_mandante(times["home"]["team"], o):
             continue
         # Escalação só ANTES do apito inicial (regra do usuário, 24/10): jogo começado ou encerrado não sai.
         if ev["status"]["type"].get("state") != "pre" and not teste:
