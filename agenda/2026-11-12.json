@@ -1,1 +1,112 @@
-[{"liga": "Liga das Nações", "hora": "14:00", "casa": "Armênia", "fora": "Chipre", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png", "tv": "ESPN 3"}, {"liga": "Liga das Nações", "hora": "14:00", "casa": "Turquia", "fora": "Bélgica", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png", "tv": "SporTV 2"}, {"liga": "Copa do Rei", "hora": "15:00", "casa": "Navalcarnero", "fora": "Betis", "lc": "", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png", "tv": "Disney+"}, {"liga": "Copa do Rei", "hora": "15:00", "casa": "Tarancón", "fora": "Levante", "lc": "", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Albânia", "fora": "Finlândia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Tchéquia", "fora": "Espanha", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png", "tv": "SporTV"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Inglaterra", "fora": "Croácia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png", "tv": "ESPN 4 e Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Itália", "fora": "França", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png", "tv": "ESPN e Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Montenegro", "fora": "Letônia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/mtg.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "San Marino", "fora": "Belarus", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/smr.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png", "tv": "Disney+"}, {"liga": "Brasileirão Série B", "hora": "19:00", "casa": "Ponte Preta", "fora": "Operário-PR", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png", "tv": "Disney+", "rodada": 38}, {"liga": "Brasileirão Série B", "hora": "20:00", "casa": "São Bernardo", "fora": "Athletic", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png", "tv": "Premiere", "rodada": 38}]
+[
+ {
+  "liga": "Liga das Nações",
+  "hora": "14:00",
+  "casa": "Armênia",
+  "fora": "Chipre",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/fifa.armenia.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/cyp.png",
+  "tv": "ESPN 3"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "14:00",
+  "casa": "Turquia",
+  "fora": "Bélgica",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+  "tv": "SporTV 2"
+ },
+ {
+  "liga": "Copa do Rei",
+  "hora": "15:00",
+  "casa": "Navalcarnero",
+  "fora": "Betis",
+  "lc": "local/navalcarnero.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Copa do Rei",
+  "hora": "15:00",
+  "casa": "Tarancón",
+  "fora": "Levante",
+  "lc": "local/tarancon.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Albânia",
+  "fora": "Finlândia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fin.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Tchéquia",
+  "fora": "Espanha",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+  "tv": "SporTV"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Inglaterra",
+  "fora": "Croácia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+  "tv": "ESPN 4 e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Itália",
+  "fora": "França",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+  "tv": "ESPN e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Montenegro",
+  "fora": "Letônia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/mtg.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/lva.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "San Marino",
+  "fora": "Belarus",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/smr.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/blr.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "19:00",
+  "casa": "Ponte Preta",
+  "fora": "Operário-PR",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+  "tv": "Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "20:00",
+  "casa": "São Bernardo",
+  "fora": "Athletic",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+  "tv": "Premiere",
+  "rodada": 38
+ }
+]
