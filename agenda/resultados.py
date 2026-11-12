@@ -44,7 +44,8 @@ def mesmo_mandante(team, o):
     if i.isdigit():
         return team["id"] == i
     n = _norm(o["casa"])
-    return n in {_norm(team.get(k)) for k in ("displayName", "shortDisplayName", "name", "location")}
+    nomes = {_norm(team.get(k)) for k in ("displayName", "shortDisplayName", "name", "location")} - {""}
+    return any(n == x or n in x or x in n for x in nomes)
 
 cache = {}
 def eventos(cod):
