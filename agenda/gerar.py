@@ -6,6 +6,21 @@ artes (AAAA-MM-DD-1.png, -2.png...), com "(1/2)" no título. Imprime os arquivos
 import json, sys
 from PIL import Image, ImageDraw, ImageFont
 
+import os, urllib.request
+def baixa(u):
+    # Baixa o escudo se ainda não estiver em escudos/ (em 13/11 as bandeiras da Liga das Nações saíram em branco por isso).
+    p = "escudos/" + (u or "").split("/")[-1]
+    if u and not os.path.exists(p) and not u.startswith("local/"):
+        try:
+            url = "https:" + u if u.startswith("//") else u
+            r = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            open(p, "wb").write(urllib.request.urlopen(r, timeout=20).read())
+        except Exception as ex:
+            print("ESCUDO FALTANDO:", u, ex, file=sys.stderr)
+    if u and not os.path.exists(p):
+        print("ESCUDO FALTANDO:", u, file=sys.stderr)
+    return p
+
 MAX = 15
 FONTE = "/usr/share/fonts/truetype/dejavu/DejaVuSans"
 f = lambda s, b=False: ImageFont.truetype(FONTE + ("-Bold" if b else "") + ".ttf", s)
@@ -51,10 +66,10 @@ def arte(J, titulo, dst):
         d.text((40, y + 66), o["liga"], font=fit(o["liga"], 190, 20, False), fill=(190, 196, 202))
         if o.get("rodada"):
             d.text((40, y + 89), f'{o["rodada"]}ª rodada', font=f(18), fill=(140, 148, 156))
-        crest("escudos/" + o["lc"].split("/")[-1], 245, y + 16)
+        crest(baixa(o["lc"]), 245, y + 16)
         t = f'{o["casa"]}  x  {o["fora"]}'
         d.text((312, y + 22), t, font=fit(t, 660, 30), fill="white")
-        crest("escudos/" + o["lf"].split("/")[-1], W - 100, y + 16)
+        crest(baixa(o["lf"]), W - 100, y + 16)
         tvicon(312, y + 70)
         d.text((350, y + 68), o["tv"], font=fit(o["tv"], 620, 22, False), fill=(255, 235, 150))
     d.text((40, H - 52), "Horários de Brasília", font=f(22), fill=(190, 196, 202))
