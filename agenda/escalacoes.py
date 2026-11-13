@@ -21,7 +21,7 @@ LIGAS = {"Premier League": "eng.1", "Championship": "eng.2", "League One": "eng.
          "Argentino": "arg.1", "MLS": "usa.1", "Eredivisie": "ned.1",
          "Copa da Liga Inglesa": "eng.league_cup", "Colombiano": "col.1", "Mexicano": "mex.1", "Campeonato Turco": "tur.1",
          "Liga das Nações": "uefa.nations", "Copa do Rei": "esp.copa_del_rey",
-         "Eliminatórias da Copa Africana": "caf.nations_qual", "Amistoso": "fifa.friendly"}
+         "Eliminatórias da Copa Africana": "caf.nations_qual", "Amistoso": "fifa.friendly", "J1 League": "jpn.1", "Eerste Divisie": "ned.2", "Campeonato Uruguaio": "uru.1"}
 dry = "--dry" in sys.argv
 teste = bool(os.environ.get("HOJE"))
 hoje = dt.date.fromisoformat(os.environ["HOJE"]) if teste else dt.datetime.now(ZoneInfo("America/Sao_Paulo")).date()
