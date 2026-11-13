@@ -1,1 +1,101 @@
-[{"liga": "Liga das Nações", "hora": "14:00", "casa": "Moldávia", "fora": "Cazaquistão", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/mda.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/kaz.png", "tv": "ESPN 4 e Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Andorra", "fora": "Gibraltar", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/and.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/gib.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Bulgária", "fora": "Islândia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/bul.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Liechtenstein", "fora": "Azerbaijão", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/aze.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Luxemburgo", "fora": "Estônia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/lux.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/est.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Países Baixos", "fora": "Grécia", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png", "tv": "ESPN e Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Escócia", "fora": "Macedônia do Norte", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png", "tv": "YouTube (ESPN Brasil) e Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Sérvia", "fora": "Alemanha", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png", "tv": "SporTV e YouTube (GE TV)"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Eslováquia", "fora": "Ilhas Faroé", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fro.png", "tv": "Disney+"}, {"liga": "Liga das Nações", "hora": "16:45", "casa": "Eslovênia", "fora": "Suíça", "lc": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png", "lf": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png", "tv": "ESPN 4 e Disney+"}, {"liga": "Copa do Rei", "hora": "17:00", "casa": "Salamanca", "fora": "Celta de Vigo", "lc": "", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png", "tv": "ESPN 3 e Disney+"}]
+[
+ {
+  "liga": "Liga das Nações",
+  "hora": "14:00",
+  "casa": "Moldávia",
+  "fora": "Cazaquistão",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/mda.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/kaz.png",
+  "tv": "ESPN 4 e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Andorra",
+  "fora": "Gibraltar",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/and.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/gib.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Bulgária",
+  "fora": "Islândia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/bul.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/isl.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Liechtenstein",
+  "fora": "Azerbaijão",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/lie.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/aze.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Luxemburgo",
+  "fora": "Estônia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/lux.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/est.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Países Baixos",
+  "fora": "Grécia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+  "tv": "ESPN e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Escócia",
+  "fora": "Macedônia do Norte",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/mkd.png",
+  "tv": "YouTube (ESPN Brasil) e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Sérvia",
+  "fora": "Alemanha",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/sba.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+  "tv": "SporTV e YouTube (GE TV)"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Eslováquia",
+  "fora": "Ilhas Faroé",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/fro.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Eslovênia",
+  "fora": "Suíça",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/svn.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+  "tv": "ESPN 4 e Disney+"
+ },
+ {
+  "liga": "Copa do Rei",
+  "hora": "17:00",
+  "casa": "Salamanca",
+  "fora": "Celta de Vigo",
+  "lc": "local/salamanca.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+  "tv": "ESPN 3 e Disney+"
+ }
+]
