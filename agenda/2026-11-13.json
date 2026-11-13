@@ -97,5 +97,23 @@
   "lc": "local/salamanca.png",
   "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
   "tv": "ESPN 3 e Disney+"
+ },
+ {
+  "liga": "Amistoso",
+  "hora": "09:00",
+  "casa": "Singapura",
+  "fora": "Paraguai",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/sin.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+  "tv": "ESPN"
+ },
+ {
+  "liga": "Amistoso",
+  "hora": "20:00",
+  "casa": "Argentina",
+  "fora": "Uruguai",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+  "tv": "SporTV e Globoplay"
  }
 ]
