@@ -1,0 +1,203 @@
+[
+ {
+  "liga": "Amistoso",
+  "hora": "07:15",
+  "casa": "Japão",
+  "fora": "Brasil",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+  "tv": "Globo, SporTV e GE TV"
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "10:00",
+  "casa": "Central Español",
+  "fora": "Boston River",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/131688.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+  "tv": "Disney+",
+  "rodada": 14
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "11:00",
+  "casa": "Kosovo",
+  "fora": "Israel",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/kosovo.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+  "tv": "ESPN e Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "14:00",
+  "casa": "Geórgia",
+  "fora": "Hungria",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/geo.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
+  "tv": "SporTV"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "14:00",
+  "casa": "Noruega",
+  "fora": "País de Gales",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png",
+  "tv": "ESPN e Disney+"
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "América-MG",
+  "fora": "Avaí",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+  "tv": "XSports, SportyNet e Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "Atlético-GO",
+  "fora": "Cuiabá",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+  "tv": "Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "CRB",
+  "fora": "Ceará",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+  "tv": "RedeTV!, SportyNet e Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "Criciúma",
+  "fora": "Novorizontino",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "Fortaleza",
+  "fora": "Vila Nova",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+  "tv": "ESPN e Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "Juventude",
+  "fora": "Botafogo-SP",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+  "tv": "XSports, ESPN 3 e Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Brasileirão Série B",
+  "hora": "16:30",
+  "casa": "Sport",
+  "fora": "Goiás",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+  "tv": "Disney+",
+  "rodada": 38
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "16:30",
+  "casa": "Maldonado",
+  "fora": "Cerro",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/5490.png",
+  "tv": "Disney+",
+  "rodada": 14
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Áustria",
+  "fora": "Irlanda",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/irl.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Irlanda do Norte",
+  "fora": "Ucrânia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Portugal",
+  "fora": "Dinamarca",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+  "tv": "SporTV"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Romênia",
+  "fora": "Polônia",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/rom.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+  "tv": "Disney+"
+ },
+ {
+  "liga": "Liga das Nações",
+  "hora": "16:45",
+  "casa": "Suécia",
+  "fora": "Bósnia e Herzegovina",
+  "lc": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+  "tv": "ESPN 3 e Disney+"
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "18:30",
+  "casa": "Mirassol",
+  "fora": "Atlético-MG",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+  "tv": "Prime Video",
+  "rodada": 35
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "20:00",
+  "casa": "Nacional",
+  "fora": "Albion",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/21403.png",
+  "tv": "Disney+",
+  "rodada": 14
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "20:30",
+  "casa": "Chapecoense",
+  "fora": "Vasco",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+  "tv": "Premiere",
+  "rodada": 35
+ }
+]
