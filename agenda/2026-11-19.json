@@ -1,1 +1,71 @@
-[{"liga": "Brasileirão Série A", "hora": "19:30", "casa": "Vasco", "fora": "Internacional", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png", "tv": "SporTV e Premiere", "rodada": 35}, {"liga": "Brasileirão Série A", "hora": "19:30", "casa": "Vitória", "fora": "Red Bull Bragantino", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png", "tv": "Premiere", "rodada": 35}, {"liga": "Brasileirão Série A", "hora": "21:30", "casa": "São Paulo", "fora": "Fluminense", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png", "tv": "Globo, YouTube (GE TV) e Premiere", "rodada": 35}, {"liga": "MLS", "hora": "21:30", "casa": "Orlando City", "fora": "FC Cincinnati", "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png", "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png", "tv": "Apple TV"}]
+[
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "19:30",
+  "casa": "Vasco",
+  "fora": "Internacional",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+  "tv": "SporTV e Premiere",
+  "rodada": 35
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "19:30",
+  "casa": "Vitória",
+  "fora": "Red Bull Bragantino",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+  "tv": "Premiere",
+  "rodada": 35
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "21:30",
+  "casa": "São Paulo",
+  "fora": "Fluminense",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+  "tv": "Globo, YouTube (GE TV) e Premiere",
+  "rodada": 35
+ },
+ {
+  "liga": "MLS",
+  "hora": "21:30",
+  "casa": "Orlando City",
+  "fora": "FC Cincinnati",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+  "tv": "Apple TV"
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "16:30",
+  "casa": "Boston River",
+  "fora": "Deportivo Maldonado",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+  "tv": "Disney+",
+  "rodada": 15
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "16:30",
+  "casa": "Progreso",
+  "fora": "Montevideo City Torque",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/6866.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/19002.png",
+  "tv": "Disney+",
+  "rodada": 15
+ },
+ {
+  "liga": "Campeonato Uruguaio",
+  "hora": "16:30",
+  "casa": "Peñarol",
+  "fora": "Cerro Largo",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9902.png",
+  "tv": "Disney+",
+  "rodada": 15
+ }
+]
