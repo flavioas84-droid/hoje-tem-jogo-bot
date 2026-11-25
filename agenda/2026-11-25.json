@@ -1,0 +1,131 @@
+[
+ {
+  "liga": "MLS",
+  "hora": "00:00",
+  "casa": "San Jose Earthquakes",
+  "fora": "Houston Dynamo",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+  "tv": "Apple TV"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "Sabah Baku",
+  "fora": "Barcelona",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+  "tv": "TNT e HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "14:45",
+  "casa": "Slavia Praga",
+  "fora": "Villarreal",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+  "tv": "Space e HBO MAX"
+ },
+ {
+  "liga": "Serie B",
+  "hora": "16:00",
+  "casa": "Pisa",
+  "fora": "Modena",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2573.png",
+  "tv": "YouTube (SportyNet)",
+  "rodada": 13
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Atlético de Madrid",
+  "fora": "Viking",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+  "tv": "HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Club Brugge",
+  "fora": "Liverpool",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+  "tv": "HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Inter de Milão",
+  "fora": "Stuttgart",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+  "tv": "HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Lille",
+  "fora": "Bayern de Munique",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+  "tv": "Space, YouTube (TNT Sports) e HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "PSG",
+  "fora": "Roma",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+  "tv": "TNT e HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Shakhtar Donetsk",
+  "fora": "Fenerbahçe",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+  "tv": "HBO MAX"
+ },
+ {
+  "liga": "Champions League",
+  "hora": "17:00",
+  "casa": "Sporting",
+  "fora": "Manchester United",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+  "tv": "HBO MAX"
+ },
+ {
+  "liga": "Championship",
+  "hora": "17:00",
+  "casa": "Stoke City",
+  "fora": "Millwall",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+  "tv": "ESPN 4 e Disney+",
+  "rodada": 17
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "20:00",
+  "casa": "Atlético-MG",
+  "fora": "Corinthians",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+  "tv": "Premiere",
+  "rodada": 36
+ },
+ {
+  "liga": "Argentino",
+  "hora": "21:00",
+  "casa": "Boca Juniors",
+  "fora": "Independiente Rivadavia",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+  "tv": "ESPN 4 e Disney+"
+ }
+]
