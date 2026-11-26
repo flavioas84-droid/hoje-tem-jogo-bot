@@ -1,0 +1,311 @@
+[
+ {
+  "liga": "Conference League",
+  "hora": "12:30",
+  "casa": "Kairat Almaty",
+  "fora": "Mjällby",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Saudi Pro League",
+  "hora": "14:30",
+  "casa": "Al Faisaly",
+  "fora": "Al Diriyah",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21446.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+  "tv": "BandSports e YouTube (Canal GOAT)",
+  "rodada": 13
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Ajax",
+  "fora": "Thun",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Brighton",
+  "fora": "Universitatea Craiova",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Egnatia",
+  "fora": "Lincoln Red Imps",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Hearts",
+  "fora": "Monaco",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Iberia Tbilisi",
+  "fora": "Getafe",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Jablonec",
+  "fora": "Lugano",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Kauno Žalgiris",
+  "fora": "Riga FC",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "14:45",
+  "casa": "Brann",
+  "fora": "AGF Aarhus",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Besiktas",
+  "fora": "Hapoel Beer Sheva",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Celta de Vigo",
+  "fora": "Bournemouth",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Dinamo Zagreb",
+  "fora": "Bayer Leverkusen",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+  "tv": "CazéTV e YouTube (CNN Esportes)"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Olympique de Marseille",
+  "fora": "Levski Sofia",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Olympiacos",
+  "fora": "Milan",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "RB Salzburg",
+  "fora": "Ararat-Armenia",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Union Saint-Gilloise",
+  "fora": "Lech Poznań",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "14:45",
+  "casa": "Viktoria Plzeň",
+  "fora": "Benfica",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "17:00",
+  "casa": "Borac Banja Luka",
+  "fora": "Atalanta",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "17:00",
+  "casa": "Braga",
+  "fora": "KuPS",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "17:00",
+  "casa": "CSKA Sofia",
+  "fora": "Trabzonspor",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Conference League",
+  "hora": "17:00",
+  "casa": "Freiburg",
+  "fora": "Twente",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Crystal Palace",
+  "fora": "Real Sociedad",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Ferencváros",
+  "fora": "Celje",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Juventus",
+  "fora": "Omonia",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Lyon",
+  "fora": "Lillestrøm",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "NEC",
+  "fora": "Rennes",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "OFI Creta",
+  "fora": "Anderlecht",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Sparta Praga",
+  "fora": "AZ Alkmaar",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Sunderland",
+  "fora": "Jagiellonia",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Torreense",
+  "fora": "Celtic",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "Europa League",
+  "hora": "17:00",
+  "casa": "Hoffenheim",
+  "fora": "Sturm Graz",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
+  "tv": "CazéTV"
+ },
+ {
+  "liga": "League One",
+  "hora": "17:00",
+  "casa": "Doncaster",
+  "fora": "Huddersfield",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/279.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/335.png",
+  "tv": "Disney+",
+  "rodada": 17
+ },
+ {
+  "liga": "Brasileirão Série A",
+  "hora": "20:00",
+  "casa": "São Paulo",
+  "fora": "Remo",
+  "lc": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+  "lf": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+  "tv": "Premiere",
+  "rodada": 37
+ }
+]
